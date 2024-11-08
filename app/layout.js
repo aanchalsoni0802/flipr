@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Nav from "@/components/nav/nav";
+import Hero from "@/components/hero/Hero";
+import Projects, { Project } from "@/components/projects/Projects";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,6 +28,7 @@ export default function RootLayout({ children }) {
       >
         <Nav />
         {children}
+
       </body>
     </html>
   );
