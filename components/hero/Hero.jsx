@@ -5,9 +5,9 @@ import "./Hero.css"
 
 export default function Hero() {
   return (
-    <div className='hero h-[60vh] pl-[10vw] pr-[10vw] flex items-center'>
+    <div id="home" className='hero h-[60vh] pl-[10vw] pr-[10vw] flex items-center'>
         <div className='w-[100%] flex items-center justify-between'>
-            <span className='text-[3rem] text-white font-bold'>Consultaion,Design,<br/>& Marketing</span>
+            <span className='text-[3rem] text-white font-bold'>Consultaion,Design<br/>& Marketing</span>
             <Form />
         </div>
     </div>

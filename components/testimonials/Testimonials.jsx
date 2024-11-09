@@ -5,7 +5,7 @@ import { Button } from '../ui/button'
 
 export default function Testimonials() {
   return (
-    <div className="p-10 flex flex-col items-center">
+    <div id ="testimonials"className="p-10 flex flex-col items-center">
         <h1 className="p-10 flex flex-col items-center text-3xl font-bold text-blue-500">Happy Clients</h1>
         <div className="flex flex-wrap gap-8 justify-evenly ">
           {testimonials.map((testimonial, index) => (

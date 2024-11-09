@@ -66,8 +66,22 @@ import Image from "next/image";
 
 export default function Section2() {
     return (
-      <div className="t w-full t flex items-center justify-center" style={{ height: "100vh" }}>
-        <div className="t w-1/2 flex flex-col items-center justify-center">
+      <div id="services" className="t w-full t flex items-center justify-center relative z-10" style={{ height: "100vh" }}>
+        <Image
+            className=" absolute left-5 top-[-50]"
+            src="/assets/images/about/Ellipse 22.svg"
+            width={150} 
+            height={150}
+            alt="Subtract"
+          ></Image>
+          <Image
+            className=" absolute left-5 top-[-50]"
+            src="/assets/images/about/Group 1.svg"
+            width={150} 
+            height={150}
+            alt="Subtract"
+          ></Image>
+        <div className="t w-1/2 flex flex-col items-center justify-center relative">
           <h1 className="text-4xl p-2 ml-5 t text-blue-600 font-bold">
             Not Your Average Realtor
           </h1>
@@ -78,9 +92,31 @@ export default function Section2() {
             on closing deals but on creating an experience that&aposs as seamless and 
             rewarding as possible
           </p>
+          
         </div>
         
-        <div className="grid grid-cols-2 t w-1/2 place-items-center">
+        <div className="grid grid-cols-2 t w-1/2 place-items-center relative ">
+        <Image
+            className=" absolute left-5 top-[0]"
+            src="/assets/images/about/Ellipse 10.svg"
+            width={150} 
+            height={150}
+            alt="Subtract"
+          ></Image>
+          <Image
+            className=" absolute left-0 right-3 top-[0]"
+            src="/assets/images/about/Ellipse 10.svg"
+            width={75} 
+            height={75}
+            alt="Subtract"
+          ></Image>
+          <Image
+            className=" absolute left-0 right-5 top-[0] rotate-180 z-0"
+            src="/assets/images/about/Ellipse 7-1.svg"
+            width={400} 
+            height={400}
+            alt="Subtract"
+          ></Image>
           <Image src="/assets/images/about/Ellipse 11.svg" alt="" width={288} height={288} />
           <div>
             <Image src="/assets/images/about/Ellipse 12.svg" width={288} height={288} alt="" />
