@@ -14,6 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import UploadFile from '@/components/upload-file/page'; // Adjust path as necessary
+import { AdminNav } from '../page';
 
 export default function Projects() {
   const [projects, setProjects] = React.useState([]);
@@ -61,9 +62,10 @@ export default function Projects() {
 
   return (
     <div className='pl-10 pr-10 flex-col justify-between items-center'>
+      <AdminNav />
       <Dialog>
         <DialogTrigger asChild>
-          <Button variant="outline">Add Projects</Button>
+          <Button variant="outline" className="border-black text-bold">Add Projects</Button>
         </DialogTrigger>
         <DialogContent className="sm:max-w-[425px]">
           <DialogHeader>
@@ -111,10 +113,10 @@ export default function Projects() {
         </DialogContent>
       </Dialog>
 
-      <div className="">
-        <h1>Projects</h1>
-        <p>Here is a list of all the projects</p>
-        <div className='flex flex-wrap gap-8 justify-start'>
+      <div className="flex flex-col items-center ">
+        <h1 className="text-3xl font-bold text-center p-3 text-blue-600">Projects</h1>
+        <p className="w-3/4 lg:w-1/2 p-4 my-4 text-xl text-gray-600 text-center">Here is a list of all the projects</p>
+        <div className='flex flex-wrap gap-8 justify-evenly'>
           {
             projects.map((project, index) => (
               <Project 

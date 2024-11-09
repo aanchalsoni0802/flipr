@@ -15,7 +15,7 @@ export default function page() {
   return (
     <div>
         <Hero />
-        <Section2/>
+        <Section2 id="services"/>
         <SpecialitySection/>
         <GallerySection/>
         <AboutUsSection/>

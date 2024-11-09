@@ -14,6 +14,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import UploadFile from '@/components/upload-file/page'; // Adjust path as necessary
+import { AdminNav } from '../page';
 
 export default function Clients() {
   const [clients, setClients] = React.useState([]);
@@ -62,6 +63,7 @@ export default function Clients() {
 
   return (
     <div className='pl-10 pr-10 flex-col justify-between items-center'>
+      <AdminNav />
       <Dialog>
         <DialogTrigger asChild>
           <Button variant="outline">Add Client</Button>
@@ -125,12 +127,12 @@ export default function Clients() {
         </DialogContent>
       </Dialog>
 
-      <div className="">
+      <div className="bg-gray-100">
         <h1>Clients</h1>
         <p>Here is a list of all the clients</p>
         <div className='flex flex-wrap gap-8 justify-start'>
           {
-            clients.map((client, index) => (
+            clients?.map((client, index) => (
               <Client 
                 key={index} 
                 img={client.img} 

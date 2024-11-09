@@ -6,7 +6,7 @@ import { NextRequest } from "next/server";
 
 export async function GET(req) {
     try {
-        await mongoose.connect("mongodb://localhost:27017/flipr-db");
+        await mongoose.connect(process.env.MONGODB_URI);
         const clients = await Client.find();
         return new Response(JSON.stringify(clients), {
             status: 200,
@@ -24,7 +24,7 @@ export async function POST(req) {
     try {
         const data = await req.json();
         console.log(data); // Log the incoming data for debugging
-        await mongoose.connect("mongodb://localhost:27017/flipr-db");
+        await mongoose.connect(process.env.MONGODB_URI);
 
         const ex= {
             img: "/assets/images/clients/one.svg",

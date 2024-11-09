@@ -18,6 +18,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { AdminNav } from "../page";
 
 export default function Subscriptions() {
   const [data, setData] = useState([]);
@@ -62,6 +63,7 @@ export default function Subscriptions() {
 
   return (
     <div className="w-full">
+      <AdminNav />
       <div className="flex items-center py-4">
         <Input
           placeholder="Filter by email..."

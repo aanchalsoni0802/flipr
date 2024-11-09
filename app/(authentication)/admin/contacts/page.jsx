@@ -31,6 +31,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import { AdminNav } from "../page";
 
 // Define columns for contact data
 export const columns = [
@@ -88,6 +89,8 @@ export const columns = [
       const contact = row.original;
 
       return (
+        <div className="flex flex-col">
+        
         <DropdownMenu>
           <DropdownMenuTrigger asChild>
             <Button variant="ghost" className="h-8 w-8 p-0">
@@ -99,13 +102,14 @@ export const columns = [
             <DropdownMenuLabel>Actions</DropdownMenuLabel>
             <DropdownMenuItem
               onClick={() => navigator.clipboard.writeText(contact._id)}
-            >
+              >
               Copy Contact ID
             </DropdownMenuItem>
             <DropdownMenuSeparator />
             <DropdownMenuItem>View Details</DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
+      </div>
       );
     },
   },
@@ -154,6 +158,7 @@ export default function ContactTable() {
 
   return (
     <div className="w-full">
+      <AdminNav />
       <div className="flex items-center py-4">
         <Input
           placeholder="Filter emails..."

@@ -49,14 +49,14 @@ export default function Nav() {
         </Link>
       </div>
       <div className="flex items-center gap-10">
-        <button onClick={() => handleScroll('home')}>HOME</button>
-        <button onClick={() => handleScroll('services')}>SERVICES</button>
-        <button onClick={() => handleScroll('projects')}>ABOUT PROJECTS</button>
-        <button onClick={() => handleScroll('testimonials')}>TESTIMONIALS</button>
+        <button onClick={() => handleScroll('home')}><Link href="/home">HOME</Link></button>
+        <button onClick={() => handleScroll('services')}><Link href="/home#services">SERVICES</Link></button>
+        <button onClick={() => handleScroll('projects')}><Link href="">ABOUT PROJECTS</Link></button>
+        <button onClick={() => handleScroll('testimonials')}><Link href="">TESTIMONIALS</Link></button>
         <Link href="#contact">
           <Button>CONTACT US</Button>
         </Link>
-        <Link href="/admin">
+        <Link href="/admin/projects">
           <Button>ADMIN PANNEL</Button>
         </Link>
       </div>

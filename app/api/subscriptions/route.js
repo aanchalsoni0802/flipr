@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 
 export async function GET() {
     try {
-        await mongoose.connect("mongodb://localhost:27017/flipr-db");
+        await mongoose.connect(process.env.MONGODB_URI);
         const data = await Subscriber.find();
         return NextResponse.json(data, { status: 200 });
     } catch (error) {
@@ -14,7 +14,7 @@ export async function GET() {
 
 export async function POST(req) {
     try {
-        await mongoose.connect("mongodb://localhost:27017/flipr-db");
+        await mongoose.connect(process.env.MONGODB_URI);
         const data = await req.json();
         const ex = {
             "email": "adityajoshi304@gmail.com"
