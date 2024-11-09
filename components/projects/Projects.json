@@ -8,13 +8,13 @@
     {
       "title": "Project Two",
       "description": "The second project focuses on API integration and responsive layouts.",
-      "img": "assets/images/projects/two.svg",
+      "img": "assets/images/projects/six.svg",
       "imgAlt": "Diagram showing Project Two's API flow"
     },
     {
       "title": "Project Three",
       "description": "This project demonstrates complex data visualization features.",
-      "img": "assets/images/projects/three.svg",
+      "img": "assets/images/projects/one.svg",
       "imgAlt": "Chart visualization for Project Three"
     },
     {

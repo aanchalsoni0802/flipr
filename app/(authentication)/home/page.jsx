@@ -1,3 +1,4 @@
+import About from '@/components/about/ABout'
 import Hero from '@/components/hero/Hero'
 import Projects from '@/components/projects/Projects'
 import Testimonials from '@/components/testimonials/Testimonials'
@@ -9,6 +10,7 @@ export default function page() {
         <Hero />
         <Projects />
         <Testimonials />
+        
     </div>
   )
 }

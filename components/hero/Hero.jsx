@@ -16,15 +16,15 @@ export default function Hero() {
 
 function Form() {
     return (
-        <div className='w-[25vw] bg-blue-300 flex flex-col items-center  opacity-95'>
-            <span>
-                Get a Free<br/>Consultaion
+        <div className='w-[30vw] h-[30vw] bg-cyan-50 flex flex-col items-center  opacity-80 justify-evenly rounded-xl'>
+            <span className="text-black font-bold text-xl">
+                Get a Free<br/>Consultation
             </span>
-            <Input placeholder={"Name"} type={"text"}></Input>
-            <Input placeholder={"Enter email address"} type={"email"}></Input>
-            <Input placeholder={"Mobile Number"} type={"number"}></Input>
-            <Input placeholder={"City"} type={"text"}></Input>
-            <Button>Submit</Button>
+            <Input placeholder={"Name"} type={"text"} className="w-[25vw] border-black"></Input>
+            <Input placeholder={"Enter email address"} type={"email"}className="w-[25vw] border-black"></Input>
+            <Input placeholder={"Mobile Number"} type={"number"}className="w-[25vw] border-black"></Input>
+            <Input placeholder={"City"} type={"text"}className="w-[25vw] border-black"></Input>
+            <Button className="font-bold text-opacity-100 bg-black ">GET A QUICK QUOTE</Button>
         </div>
     )
 }
