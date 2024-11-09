@@ -10,8 +10,8 @@ export default function Projects() {
         <span className="pt-5 flex flex-col items-center">We know what buyers are looking for and suggest projects that 
           will bring<br/> <span>Clients top dollar at sale of their homes</span></span>
         <div className="flex flex-wrap gap-8 justify-evenly pt-5 ">
-          {projectsData.map((project) => (
-            <Project img={project.img} imgAlt={project.imgAlt} title={project.title} description={project.description}/>
+          {projectsData.map((project, index) => (
+            <Project key={index} img={project.img} imgAlt={project.imgAlt} title={project.title} description={project.description}/>
           ))}
         </div>
     
