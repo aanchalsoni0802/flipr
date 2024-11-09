@@ -8,7 +8,8 @@ export default function Nav() {
   return (
     <div className='flex justify-between pt-5 pb-5 pl-16 pr-16 w-[100%] items-center'>
         <div className="">
-            <Image className='logo' src={"/assets/images/logo.svg"} width={200} height={200} alt=''></Image>
+          <Link href={"/home"}><Image className='logo' src={"/assets/images/logo.svg"} width={200} height={200} alt=''></Image></Link>
+            
         </div>
         <div className="flex items-center gap-10">
             <Link href={"#"}>HOME</Link>

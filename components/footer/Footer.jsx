@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 
 export default function Footer() {
@@ -6,12 +7,17 @@ export default function Footer() {
         <div className="w-full sm:w-1/3 text-center sm:text-left p-3">
           All Rights Reserved | 2024
         </div>
-        <img className="max-w-36 m-3" src="/assets/images/logo.svg" alt="" />
+        <Link href={"/home"}><img className="max-w-36 m-3" src="/assets/images/logo.svg" alt="" /></Link>
+        
         <div className="w-1/3 flex items-center justify-center sm:justify-end">
-          <img className="m-2" src="/assets/images/specialitysection/Group.svg" alt="" />
-          <img className="m-2" src="/assets/images/specialitysection/Linkedin.svg" alt="" />
-          <img className="m-2" src="/assets/images/specialitysection/Frame.svg" alt="" />
-          <img className="m-2" src="/assets/images/specialitysection/Group-1.svg" alt="" />
+        <Link href ={"#"}><img className="m-2" src="/assets/images/specialitysection/Group.svg" alt="" /></Link>
+        <Link href ={"#"}><img className="m-2" src="/assets/images/specialitysection/Linkedin.svg" alt="" /></Link>
+        <Link href ={"#"}><img className="m-2" src="/assets/images/specialitysection/Frame.svg" alt="" />
+        </Link>
+        <Link href ={"#"}><img className="m-2" src="/assets/images/specialitysection/Group-1.svg" alt="" /></Link>
+          
+          
+          
         </div>
       </div>
     );
