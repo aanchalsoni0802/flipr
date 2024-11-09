@@ -1,7 +1,7 @@
-// // import Image from 'next/image'
-// // import React from 'react'
+// // import Image from &aposnext/image&apos
+// // import React from &aposreact&apos
 // // import "./About.css"
-// // import { Span } from 'next/dist/trace'
+// // import { Span } from &aposnext/dist/trace&apos
 // // export default function About() {
 // //   return (
 // //     <div className=" flex flex-row w-[100%] min-h-0 h-[auto]  border-black">
@@ -10,10 +10,10 @@
 import Image from "next/image";
 
            
-// //             <Image  src={"/assets/images/logo.svg"} width={300} height={300} alt=''></Image>
+// //             <Image  src={"/assets/images/logo.svg"} width={300} height={300} alt=&apos&apos></Image>
 // //             <h1 className="font-bold">Not Your Average Realtor</h1>
-// //             <p>Buying or selling a home is more than a transaction; it's a life-changing experience. 
-// //               As 'Not Your Average Realtor,' I go beyond the basics to deliver tailored, data-driven insights,
+// //             <p>Buying or selling a home is more than a transaction; it&aposs a life-changing experience. 
+// //               As &aposNot Your Average Realtor,&apos I go beyond the basics to deliver tailored, data-driven insights,
 // //                innovative marketing, and an unwavering commitment to your goals. My focus isn’t just 
 // //               on closing deals but on creating an experience that’s as seamless and 
 // //               rewarding as possible
@@ -23,8 +23,8 @@ import Image from "next/image";
 
 
 // //             <h1 className="font-bold">Not Your Average Realtor</h1>
-// //             <p>Buying or selling a home is more than a transaction; it's a life-changing experience. 
-// //               As 'Not Your Average Realtor,' I go beyond the basics to deliver tailored, data-driven insights,
+// //             <p>Buying or selling a home is more than a transaction; it&aposs a life-changing experience. 
+// //               As &aposNot Your Average Realtor,&apos I go beyond the basics to deliver tailored, data-driven insights,
 // //                innovative marketing, and an unwavering commitment to your goals. My focus isn’t just 
 // //               on closing deals but on creating an experience that’s as seamless and 
 // //               rewarding as possible
@@ -36,7 +36,7 @@ import Image from "next/image";
 // //   )
 // // }
 
-// import Image from 'next/image';
+// import Image from &aposnext/image&apos;
 
 // export default function About() {
 //   return (
@@ -72,10 +72,10 @@ export default function Section2() {
             Not Your Average Realtor
           </h1>
           <p className="text-left py-2 t w-full ml-10 lg:w-1/2 lg:mr-5 lg:ml-0 text-gray-700">
-            Buying or selling a home is more than a transaction; it's a life-changing experience. 
-            As 'Not Your Average Realtor,' I go beyond the basics to deliver tailored, data-driven insights,
-            innovative marketing, and an unwavering commitment to your goals. My focus isn’t just 
-            on closing deals but on creating an experience that’s as seamless and 
+            Buying or selling a home is more than a transaction; it&aposs a life-changing experience. 
+            As &aposNot Your Average Realtor,&apos I go beyond the basics to deliver tailored, data-driven insights,
+            innovative marketing, and an unwavering commitment to your goals. My focus isn&apost just 
+            on closing deals but on creating an experience that&aposs as seamless and 
             rewarding as possible
           </p>
         </div>
