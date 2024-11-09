@@ -65,7 +65,7 @@ function Form() {
             <input
                 placeholder="Name"
                 type="text"
-                className="w-[25vw] border-black rounded-xl pl-4 pr-4 pt-2 pb-2"
+                className="w-[25vw] border-black rounded-xl pl-4 pr-4 pt-2 pb-2 bg-black"
                 
                 value={name}
                 onChange={(e) => setName(e.target.value)}
@@ -73,21 +73,21 @@ function Form() {
             <input
                 placeholder="Enter email address"
                 type="email"
-                className="w-[25vw] border-black rounded-xl pl-4 pr-4 pt-2 pb-2"
+                className="w-[25vw] border-black rounded-xl pl-4 pr-4 pt-2 pb-2 bg=black"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
             />
             <input
                 placeholder="Mobile Number"
                 type="number"
-                className="w-[25vw] border-black rounded-xl pl-4 pr-4 pt-2 pb-2"
+                className="w-[25vw] border-black rounded-xl pl-4 pr-4 pt-2 pb-2 bg-black"
                 value={mobile}
                 onChange={(e) => setMobile(e.target.value)}
             />
             <input
                 placeholder="City"
                 type="text"
-                className="w-[25vw] border-black rounded-xl pl-4 pr-4 pt-2 pb-2"
+                className="w-[25vw] border-black rounded-xl pl-4 pr-4 pt-2 pb-2 bg-black"
                 value={city}
                 onChange={(e) => setCity(e.target.value)}
             />
