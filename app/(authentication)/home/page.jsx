@@ -20,7 +20,7 @@ export default function page() {
         <GallerySection/>
         <AboutUsSection />
         <Projects id="projects"/>
-        <Testimonials />
+        <Testimonials id="testimonials" />
         <BannerSection/>
         <NewsletterSection/>
         <Footer/>
