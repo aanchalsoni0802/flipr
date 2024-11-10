@@ -18,7 +18,7 @@ export default function page() {
         <Section2 id="services"/>
         <SpecialitySection/>
         <GallerySection/>
-        <AboutUsSection/>
+        <AboutUsSection id="about"/>
         <Projects />
         <Testimonials />
         <BannerSection/>
