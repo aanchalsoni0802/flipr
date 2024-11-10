@@ -18,8 +18,8 @@ export default function page() {
         <Section2 id="services"/>
         <SpecialitySection/>
         <GallerySection/>
-        <AboutUsSection id="about"/>
-        <Projects />
+        <AboutUsSection />
+        <Projects id="projects"/>
         <Testimonials />
         <BannerSection/>
         <NewsletterSection/>
